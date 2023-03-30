@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #000000;
+    font-family: sans-serif;
+  }
+  h3{
+    color: white;
+  }
+  .topnav{
+    overflow: hidden;
+    background-color: #000000 ;
+    padding: 10px;
+  }
+  .topnav a{
+    float:center;
+    display: block;
+    color: #0F6292;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size:4.0rem;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: serif;
+  
+  }
+  .topnav .search-container{
+    float: right;
+  }
+  form{
+    background-color: #000000;
+    width:300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+  }
+  input{
+    all:unset;
+    font: 15px system-ui;
+    color: #fff;
+    height:100%;
+    width: 100%;
+    padding: 6px 9px;
+  }
+  .thumbnail{
+    height: 350px;
+    width: 200px;
+    border-radius: 19px ;
+  }
+  .column{
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+  }
+  .card{
+    border-radius: 19px ;
+    padding: 30px;
+    height:450px;
+    width: 250px;
+    text-align: center;
+    background-color: #16FF00;
+  }
